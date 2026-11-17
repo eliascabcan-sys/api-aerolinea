@@ -1,0 +1,14 @@
+{
+  "name": "api-aerolinea",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/app.js",
+  "description": "API REST modular (routes, controllers, services, models) de pilotos, aviones y asignaciones",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
